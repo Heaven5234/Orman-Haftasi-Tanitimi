@@ -31,8 +31,6 @@ a.header-mainpage {
     padding: 10px;
 }
 
-.header-mainpage#anasayfa:hover:after {}
-
 a.header-link {
     margin-left: 7vw;
     text-decoration: none;
