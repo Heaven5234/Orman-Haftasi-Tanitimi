@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 15vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #111d13;
+}
+
+.workspace {
+    width: 192vh;
+}
+
+a.header-mainpage {
+    font-size: 200%;
+    margin-left: 7vw;
+    text-decoration: none;
+    color: rgb(250, 220, 163);
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.header-mainpage#anasayfa:hover:after {}
+
+a.header-link {
+    margin-left: 7vw;
+    text-decoration: none;
+    color: wheat;
+}
