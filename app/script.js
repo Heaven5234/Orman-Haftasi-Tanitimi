@@ -1,17 +1,29 @@
-function getSomeData() {
-  alert("denemeye değer");
+const imgButton = document.getElementById("menu-image");
+const menuContent = document.getElementById("menu-content");
+const mainpage = document.getElementById("anasayfa");
+let isMenuOpened = false;
 
-  let link = document.getElementById("orman-vakiflari");
+if (imgButton != null && menuContent != null && mainpage != null) {
+  console.log("found the", imgButton.id, menuContent.id, mainpage.id);
+  imgButton.addEventListener(
+    "click",
+    () => {
+      if (!isMenuOpened) {
+        menuContent.style.display = "flex";
+        mainpage.style.display = "none";
+      }
+      else {
+        menuContent.style.display = "none";
+        mainpage.style.display = "flex";
+      }
+    },
+    false,
+  );
+}
 
-  if (link != null) {
-    console.log(link);
-
-    link.addEventListener("click", getSomeData, false);
-
-    return;
-  }
-
-  console.log("there is no element with name = 'orman-vakiflari'");
-
-  return;
+else {
+  console.log("cant found imgButton, menuContent or mainpage");
+  console.log(imgButton);
+  console.log(menuContent);
+  console.log(mainpage);
 }

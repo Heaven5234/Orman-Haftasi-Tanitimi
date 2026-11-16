@@ -9,10 +9,8 @@
 </head>
 
 <body>
-    <script type="module" src="app/script.js"></script>
-
-    <div class="workspace" id="workspace">
-        <header class="header" id="header">
+    <div class="workspace">
+        <header class="header">
             <a class="header-mainpage" id="anasayfa" href="index.html">Orman Haftası</a>
 
             <a class="header-link" id="orman-haftasi-tarihi" href="#">Orman Haftasının Tarihi</a>
@@ -20,8 +18,32 @@
             <a class="header-link" id="orman-ekonomisi" href="#">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
             <a class="header-link" id="orman-vakiflari" href="#">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
 
+            <div class="menu-logo">
+                <button class="button" id="menu-button">
+                    <img class="image" id="menu-image" src="images/menu.png" alt="menu">
+                </button>
+            </div>
+
+            <div class="menu-content" id="menu-content">
+                <ul class="list" id="menu-list">
+                    <li>
+                        <a class="menu-link" id="orman-haftasi-tarihi" href="#">Orman Haftasının Tarihi</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="agac-yasami" href="#">Bir Ağacın Yaşamı</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="orman-ekonomisi" href="#">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="orman-vakiflari" href="#">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
+                    </li>
+                </ul>
+            </div>
         </header>
     </div>
+
+    <script src="app/script.js"></script>
 </body>
 
 </html>
