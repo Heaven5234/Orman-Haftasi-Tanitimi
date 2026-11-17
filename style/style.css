@@ -64,6 +64,28 @@ a.header-link:hover {
    background-color: rgba(255, 255, 255, 0.17);
 }
 
+div.menu-content {
+   display: none;
+   width: 90%;
+   justify-content: center;
+}
+
+ul.list#menu-list {
+   font-size: 200%;
+   list-style: none;
+   text-align: center;
+}
+
+li {
+   padding: 60px;
+   align-items: center;
+   justify-content: center;
+}
+
+div.menu-logo {
+   align-self: flex-start;
+}
+
 button.button#menu-button {
    background-color: transparent;
    border: none;
@@ -75,19 +97,6 @@ img.image#menu-image {
    height: 50px;
    width: 50px;
    filter: brightness(0) saturate(100%) invert(93%) sepia(17%) saturate(745%) hue-rotate(328deg) brightness(100%) contrast(93%);
-}
-
-div.menu-content {
-   display: none;
-}
-
-ul.list#menu-list {
-   font-size: 200%;
-   list-style: none;
-}
-
-li {
-   padding: 30px;
 }
 
 @media screen and (max-width: 1640px) {
