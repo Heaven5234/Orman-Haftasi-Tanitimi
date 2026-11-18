@@ -86,7 +86,7 @@ div.menu-logo {
    align-self: flex-start;
 }
 
-button.button#menu-button {
+button#menu-button.button {
    background-color: transparent;
    border: none;
    display: none;
@@ -104,7 +104,7 @@ img.image#menu-image {
       justify-content: space-between;
    }
 
-   button.button#menu-button {
+   button#menu-button.button {
       display: flex;
    }
 
