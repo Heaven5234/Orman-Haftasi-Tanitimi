@@ -3,7 +3,8 @@ const menuContent = document.getElementById("menu-content");
 const headerContent = document.getElementById("header-content");
 const mainpage = document.getElementById("anasayfa");
 const siteMainContent = document.getElementById("main-site-content");
-const mediaQuery = window.matchMedia("(max-width:1610px)");
+const mediaQuery = window.matchMedia("(max-width:1640px)");
+
 let isMenuOpened = false;
 let isWindowSmall = window.innerWidth > 1720 ? false : true;
 

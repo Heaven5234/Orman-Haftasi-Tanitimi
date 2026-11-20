@@ -4,9 +4,9 @@ const secondMessage = "Ormanlar Evimiz";
 const thirdMessage = "Nefesimizin Kaynağı";
 
 async function main(messageDelay = 300, deleteDelay = 100) {
-    while (!window.closed) {
-        if (mainpageContentHead) {
-            mainpageContentHead.textContent = "";
+    while (true) {
+        if (mainpageContentHead != null) {
+            mainpageContentHead.textContent = " ";
 
             await addMessage(mainpageContentHead, firstMessage, messageDelay);
             await deleteCharsInvert(mainpageContentHead, deleteDelay);
@@ -18,6 +18,7 @@ async function main(messageDelay = 300, deleteDelay = 100) {
 
         else {
             console.log("[changingHead]main() : can't find 'mainpageContentHead' element");
+            break;
         }
     }
 }
@@ -58,4 +59,4 @@ function successAfterMiliseconds(ms) {
         });
 }
 
-main();
+main(200, 50);
