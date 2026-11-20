@@ -137,7 +137,7 @@ img.image#orman-fotografi {
 }
 
 img.glow-filter#orman-fotografi {
-   filter: drop-shadow(0px 0px 120px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 120px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 120px rgba(60, 204, 96, 0.89));
+   filter: drop-shadow(0px 0px 10px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 50px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89));
 }
 
 @media screen and (max-width: 1640px) {
