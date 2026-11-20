@@ -1,8 +1,7 @@
 const mainpageContentHead = document.getElementById("orman-haftasi");
-const firstMessage = "Orman Haftası";
+const firstMessage = "Orman Haftası (21-26 Mart)";
 const secondMessage = "Ormanlar Evimiz";
 const thirdMessage = "Nefesimizin Kaynağı";
-let messageOrder = 1;
 
 async function main(messageDelay = 300, deleteDelay = 100) {
     while (!window.closed) {
