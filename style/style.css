@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+   --montserrat-font: "montserrat", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -19,7 +23,8 @@ div.workspace {
    width: 100%;
 }
 
-header.header {
+header.header,
+main.content {
    display: flex;
    flex-wrap: wrap;
    padding: 45px 50px;
@@ -32,7 +37,7 @@ div.header-content {
 }
 
 a.header-mainpage {
-   font-family: "Montserrat", "sans-serif";
+   font-family: var(--montserrat-font);
    font-size: 200%;
    font-weight: 500;
    text-decoration: none;
@@ -50,7 +55,7 @@ a.header-mainpage:hover {
 
 a.header-link,
 a.menu-link {
-   font-family: "Montserrat", "sans-serif";
+   font-family: var(--montserrat-font);
    font-size: 100%;
    font-weight: 300;
    text-decoration: none;
@@ -97,6 +102,17 @@ img.image#menu-image {
    height: 50px;
    width: 50px;
    filter: brightness(0) saturate(100%) invert(93%) sepia(17%) saturate(745%) hue-rotate(328deg) brightness(100%) contrast(93%);
+}
+
+main.content {
+   padding: 20px 20px;
+}
+
+h1.site-head {
+   color: rgb(172, 161, 62);
+   font-family: var(--montserrat-font);
+   font-size: 300%;
+   font-weight: 700;
 }
 
 @media screen and (max-width: 1640px) {
