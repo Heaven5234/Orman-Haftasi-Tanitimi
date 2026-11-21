@@ -87,16 +87,24 @@ div.menu-content {
    justify-content: center;
 }
 
-ul.list#menu-list {
-   font-size: 200%;
+ul.list {
    list-style: none;
    text-align: center;
 }
 
+ul.list#menu-list {
+   font: 200%;
+}
+
 li {
-   padding: 60px;
+   display: flex;
+   padding: 72px;
    align-items: center;
    justify-content: center;
+}
+
+a.menu-link {
+   font-size: 200%;
 }
 
 div.menu-logo {
@@ -177,6 +185,51 @@ a.footer-link#github-link:hover {
 
 p.info {
    background-color: transparent;
+}
+
+ul.list#context {
+   width: 100%;
+}
+
+p.context-text {
+   color: rgb(235, 211, 181);
+   font-size: 200%;
+   width: 40%;
+}
+
+p.context-text#ormancilik-tarihi {
+   text-align: left;
+}
+
+p.context-text#ormanin-onemi {
+   text-align: right;
+}
+
+p.context-text#gecmis {
+   width: 100%;
+   text-align: center;
+}
+
+img.image#orman-haftasi-resim {
+   width: 30%;
+   height: auto;
+   border-radius: 20px;
+}
+
+li.context-li {
+   justify-content: space-around;
+}
+
+img.image#buyuk-orman {
+   width: 40%;
+   height: auto;
+   border-radius: 30px;
+}
+
+img.image#ekim {
+   width: 30%;
+   height: auto;
+   border-radius: 16px;
 }
 
 @media screen and (max-width: 1640px) {

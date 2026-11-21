@@ -1,3 +1,6 @@
 menu.png: https://freeicons.io/icon/common-style-icons-7/align-right-icon-11527
 orman.png: https://www.magnific.com/free-psd/majestic-evergreen-forest-panorama-serene-collection-tall-coniferous-trees_405497057.htm#fromView=keyword&page=1&position=2&uuid=63f4a67a-c568-4501-951a-3ede53335d25&track=ais_hybrid&query=Forest+png
 agac.png: https://www.pngwing.com/tr/free-png-bmifp/download
+orman-haftasi.jpg: https://www.turgev.org/cms-media/cms/assets/2026/08/5f875ada-cda4-4232-b4ec-df7335665a61/hero.jpg
+buyuk-orman.jpg: https://upload.wikimedia.org/wikipedia/commons/5/5b/Cliffs_on_both_sides_of_Aksu_stream%2C_Giresun.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original
+ekim.jpg: https://adalar.meb.gov.tr/meb_iys_dosyalar/2025_03/24115524_whatsappimage20250322at18.10.13.jpg

@@ -15,28 +15,27 @@
             <a class="header-mainpage" id="anasayfa" href="index.html">Orman Haftası</a>
 
             <div class="header-content" id="header-content">
-                <a class="header-link" id="orman-haftasi-tarihi" href="view/orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
-                <a class="header-link" id="agac-yasami" href="view/agac-yasami.html">Bir Ağacın Yaşamı</a>
-                <a class="header-link" id="orman-ekonomisi" href="view/orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
-                <a class="header-link" id="orman-calismalari" href="view/orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
+                <a class="header-link" id="orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
+                <a class="header-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
+                <a class="header-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
+                <a class="header-link" id="orman-calismalari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
             </div>
 
             <div class="menu-content" id="menu-content">
                 <ul class="list" id="menu-list">
                     <li>
-                        <a class="menu-link" id="orman-haftasi-tarihi" href="view/orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
+                        <a class="menu-link" id="orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
                     </li>
                     <li>
-                        <a class="menu-link" id="agac-yasami" href="view/agac-yasami.html">Bir Ağacın Yaşamı</a>
+                        <a class="menu-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
                     </li>
                     <li>
-                        <a class="menu-link" id="orman-ekonomisi" href="view/orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
+                        <a class="menu-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
                     </li>
                     <li>
-                        <a class="menu-link" id="orman-vakiflari" href="view/orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
+                        <a class="menu-link" id="orman-vakiflari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
                     </li>
                 </ul>
-
             </div>
 
             <div class="menu-logo">
@@ -48,7 +47,7 @@
 
         <main class="content" id="main-site-content">
             <header class="content-head">
-                <h1 class="site-head" id="orman-haftasi">Orman Haftası</h1>
+                <h1 class="site-head" id="baslik">Orman Haftası</h1>
             </header>
 
             <div class="content-body">
@@ -67,7 +66,16 @@
     </div>
 
     <script src="app/mediaHandler.js"></script>
-    <script src="app/changingHead.js"></script>
+    <script type="module">
+        import ChangingHead from "./app/changingHead.js";
+
+        ChangingHead.main(
+            document.getElementById("baslik"),
+            ["Orman Haftası (21-26 Mart)", "Ormanlar Evimiz", "Nefesimizin Kaynağı"],
+            300,
+            80
+        )
+    </script>
 </body>
 
 </html>

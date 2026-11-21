@@ -1,62 +1,53 @@
-const mainpageContentHead = document.getElementById("orman-haftasi");
-const firstMessage = "Orman Haftası (21-26 Mart)";
-const secondMessage = "Ormanlar Evimiz";
-const thirdMessage = "Nefesimizin Kaynağı";
-
-async function main(messageDelay = 300, deleteDelay = 100) {
-    while (true) {
-        if (mainpageContentHead != null) {
-            mainpageContentHead.textContent = " ";
-
-            await addMessage(mainpageContentHead, firstMessage, messageDelay);
-            await deleteCharsInvert(mainpageContentHead, deleteDelay);
-            await addMessage(mainpageContentHead, secondMessage, messageDelay);
-            await deleteCharsInvert(mainpageContentHead, deleteDelay);
-            await addMessage(mainpageContentHead, thirdMessage, messageDelay);
-            await deleteCharsInvert(mainpageContentHead, deleteDelay);
+export default class ChangingHead {
+    static async main(element, messages, messageDelay = 300, deleteDelay = 100) {
+        element.textContent = "";
+        if (element == null) {
+            console.log("[ChangingHead]: cant find", element.id);
         }
-
         else {
-            console.log("[changingHead]main() : can't find 'mainpageContentHead' element");
-            break;
+            while (true) {
+                for (const message of messages) {
+                    await this.addMessage(element, message, messageDelay);
+                    await this.deleteCharsInvert(element, deleteDelay);
+                }
+            }
         }
     }
-}
 
-async function deleteCharsInvert(element, delay) {
-    const length = element.textContent.length;
+    static async deleteCharsInvert(element, delay) {
+        const length = element.textContent.length;
 
-    for (let i = 0; i < length; i++) {
-        element.textContent = element.textContent.slice(0, -1);
+        for (let i = 0; i < length; i++) {
+            element.textContent = element.textContent.slice(0, -1);
 
-        await successAfterMiliseconds(delay);
+            await this.successAfterMiliseconds(delay);
+        }
+
+        console.log("deleteCharsInvert: finished")
     }
 
-    console.log("deleteCharsInvert: finished")
-}
+    static async addMessage(element, message, delay) {
+        const length = message.length;
 
-async function addMessage(element, message, delay) {
-    const length = message.length;
+        for (let i = 0; i < length; i++) {
+            element.textContent += message[i];
 
-    for (let i = 0; i < length; i++) {
-        element.textContent += message[i];
+            await this.successAfterMiliseconds(delay);
+        }
 
-        await successAfterMiliseconds(delay);
+        console.log("addMessage: finished");
     }
 
-    console.log("addMessage: finished");
-}
+    static successAfterMiliseconds(ms) {
+        return new Promise(
+            (resolve) => {
+                setTimeout(
+                    function () {
+                        resolve("resolved");
+                    },
+                    ms
+                )
+            });
+    }
 
-function successAfterMiliseconds(ms) {
-    return new Promise(
-        (resolve) => {
-            setTimeout(
-                function () {
-                    resolve("resolved");
-                },
-                ms
-            )
-        });
 }
-
-main(200, 50);

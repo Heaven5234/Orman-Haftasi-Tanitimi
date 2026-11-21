@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orman Haftasının Tarihi</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="image/png" href="images/agac.png">
+</head>
+
+<body>
+    <div class="workspace">
+        <header class="header">
+            <a class="header-mainpage" id="anasayfa" href="index.html">Orman Haftası</a>
+
+            <div class="header-content" id="header-content">
+                <a class="header-link" id="orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
+                <a class="header-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
+                <a class="header-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
+                <a class="header-link" id="orman-calismalari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
+            </div>
+
+            <div class="menu-content" id="menu-content">
+                <ul class="list" id="menu-list">
+                    <li>
+                        <a class="menu-link" id="menu-orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="menu-agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="menu-orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" id="menu-orman-vakiflari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="menu-logo">
+                <button class="button" id="menu-button">
+                    <img class="image" id="menu-image" src="images/menu.png" alt="menu">
+                </button>
+            </div>
+        </header>
+
+        <main class="content" id="main-site-content">
+            <header class="content-head">
+                <h1 class="site-head" id="baslik">
+                    Orman Haftasının Tarihi
+                </h1>
+            </header>
+
+            <div class="content-body">
+                <ul class="list" id="context">
+                    <li class="context-li">
+                        <img src="images/buyuk-orman.jpg" alt="Büyük Orman" class="image" id="buyuk-orman">
+                        <p class="context-text" id="ormanin-onemi">Ormanlar, Dünya'da yaşamın belki de en önemli parçasıdır. Hayvanlar açlığını burada yatıştırır, burada barınır. İnsanlarda kaynaklarını ormanlardan alır, ve en önemli yaşama kaynağmız Oksijenin büyük bir kısmını ormanlardan alırız.</p>
+                    </li>
+                    <li class="context-li">
+                        <p class="context-text" id="ormancilik-tarihi">Orman Haftası, Türkiye'de okullarda 21 - 26 Mart tarihleri arasında kutlanan bir haftadır.
+                            Orman haftası ve ağaç bayramı olarak da adlandırılır. Amacı çocuklara ormanların önemini öğretmektir.
+                            Hafta boyunca fidan dikilir ve ağaç ile ormanların doğa ve ekonomiye katkıları anlatılır.
+                        </p>
+                        <img src="images/orman-haftasi.jpg" alt="orman haftası" class="image" id="orman-haftasi-resim">
+                    </li>
+                    <li class="context-li">
+                        <p class="context-text" id="gecmis">
+                            1971 yılında Avrupa Tarım Federasyonu (CEA); 21 Mart gününü Kuzey yarım küresinde ilkbaharın, Güney yarım küresinde de sonbaharın başlangıç günü olarak kabul etmiş ve Birleşmiş Milletler Gıda Örgütü (FAO) kanalı ile bunun bütün dünya ülkelerine tavsiye edilmesini sağlamıştır. O günden bu yana 21 Mart, " Dünya Ormancılık Günü", 21 Martı içerisine alan hafta da "Orman Haftası" olarak kutlamaya başlanmıştır. Türkiye ise Dünya Ormancılık Gününü ilk defa 1975 yılında kutlamıştır. Ayrıca ülkemizde 21-26 Mart tarihleri arasında Orman Haftası kutlanır ve bu haftanın bir günü Ağaç Bayramı olarak kabul edilir ve uygun alanlar ağaçlandırılır.Ormanlar, doğanın kalbidir ve yaşam için vazgeçilmezdir. İnsanlık için oksijen üretir, iklimi dengeler, biyoçeşitliliği korur ve su döngüsünü düzenler. Aynı zamanda ormanlar, yerel halklara yaşam kaynağı sunar ve dünya ekonomisine önemli katkılarda bulunur.
+                        </p>
+                    </li>
+                    <li class="context-li">
+                        <img src="images/ekim.jpg" alt="ekim" class="image" id="ekim">
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer" id="footer">
+            <a href="https://github.com/Heaven5234/Orman-Haftasi-Tanitimi" class="footer-link" id="github-link">
+                <p class="info">
+                    Enes Bozkurt
+                </p>
+            </a>
+        </footer>
+    </div>
+
+    <script src="app/mediaHandler.js"></script>
+    <script type="module">
+        import ChangingHead from "./app/changingHead.js";
+
+        ChangingHead.main(
+            document.getElementById("baslik"),
+            ["Orman Haftasının Tarihi"],
+            200,
+            20
+        )
+    </script>
+</body>
+
+</html>
