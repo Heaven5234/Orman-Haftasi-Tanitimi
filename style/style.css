@@ -167,6 +167,18 @@ footer.footer {
    font-size: 210%;
 }
 
+a.footer-link#github-link {
+   background-color: transparent;
+}
+
+a.footer-link#github-link:hover {
+   background-color: rgba(255, 255, 255, 0.17);
+}
+
+p.info {
+   background-color: transparent;
+}
+
 @media screen and (max-width: 1640px) {
    header.header {
       justify-content: space-between;
