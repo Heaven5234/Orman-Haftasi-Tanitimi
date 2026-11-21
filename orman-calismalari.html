@@ -17,7 +17,6 @@
             <div class="header-content" id="header-content">
                 <a class="header-link" id="orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
                 <a class="header-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
-                <a class="header-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
                 <a class="header-link" id="orman-calismalari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
             </div>
 
@@ -28,9 +27,6 @@
                     </li>
                     <li>
                         <a class="menu-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
-                    </li>
-                    <li>
-                        <a class="menu-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
                     </li>
                     <li>
                         <a class="menu-link" id="orman-vakiflari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
@@ -55,13 +51,21 @@
             <a href="https://github.com/Heaven5234/Orman-Haftasi-Tanitimi" class="footer-link" id="github-link">
                 <p class="info">
                     Enes Bozkurt
+                    <br>
+                    Bu site bir okul ödevidir.
                 </p>
             </a>
         </footer>
     </div>
 
     <script src="app/mediaHandler.js"></script>
-    <script src="app/changingHead.js"></script>
+    <script type="module">
+        import ChangingHead from ".app/changingHead.js";
+
+        ChangingHead.InitializeSequence(
+
+        )
+    </script>
 </body>
 
 </html>

@@ -4,3 +4,9 @@ agac.png: https://www.pngwing.com/tr/free-png-bmifp/download
 orman-haftasi.jpg: https://www.turgev.org/cms-media/cms/assets/2026/08/5f875ada-cda4-4232-b4ec-df7335665a61/hero.jpg
 buyuk-orman.jpg: https://upload.wikimedia.org/wikipedia/commons/5/5b/Cliffs_on_both_sides_of_Aksu_stream%2C_Giresun.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original
 ekim.jpg: https://adalar.meb.gov.tr/meb_iys_dosyalar/2025_03/24115524_whatsappimage20250322at18.10.13.jpg
+tohum.avif: https://image.made-in-china.com/202f0j00KrlqStpPHQkF/S336-Xiang-Shu-High-Germination-Rate-Oak-Tree-Seeds-for-Planting.webp
+fide.jpg: https://www.tesisatmarket.com/upload/image/88881agac-fidanlarinin-soguk-depolarda-muhafazasi-fidan-depo-tasarimi.jpg
+fidan.jpg: https://blog.koctas.com.tr/wp-content/uploads/2021/08/fidan-nasil-dikilir.jpg
+buyuk-agac.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9dKvBJH5H1W-T9I-ABjLaI2O_VBtvMIw1o8hnK6Qp7KbNIEwOAshyePFt&s=10
+ari.jpg: https://pixnio.com/free-images/2017/10/14/2017-10-14-07-48-23.jpg
+elma.jpg: https://i.pinimg.com/736x/80/ae/7e/80ae7e436145984bd9348a6319d8817e.jpg

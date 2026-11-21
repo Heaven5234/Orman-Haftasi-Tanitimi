@@ -17,7 +17,6 @@
             <div class="header-content" id="header-content">
                 <a class="header-link" id="orman-haftasi-tarihi" href="orman-haftasi-tarihi.html">Orman Haftasının Tarihi</a>
                 <a class="header-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
-                <a class="header-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
                 <a class="header-link" id="orman-calismalari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
             </div>
 
@@ -28,9 +27,6 @@
                     </li>
                     <li>
                         <a class="menu-link" id="agac-yasami" href="agac-yasami.html">Bir Ağacın Yaşamı</a>
-                    </li>
-                    <li>
-                        <a class="menu-link" id="orman-ekonomisi" href="orman-ekonomisi.html">Ormanın ve Orman Felaketlerinin Ekonomiye Etkisi</a>
                     </li>
                     <li>
                         <a class="menu-link" id="orman-vakiflari" href="orman-calismalari.html">Geçmişten Günümüze Ormanlar İçin Yapılmış Çalışmalar</a>
@@ -47,21 +43,64 @@
         </header>
 
         <main class="content" id="main-site-content">
+            <header class="content-head">
+                <h1 class="site-head" id="baslik">
+                    Bir Ağacın Yaşamı
+                </h1>
+            </header>
 
+            </header>
+            <div class="content-body">
+                <ol class="list" id="context">
+                    <li class="ol-context-li-left">
+                        <img src="images/tohum.avif" alt="tohum" class="image" id="tohum">
+                        <figcaption class="explain">Ağacın hayatı, içinde bir deve dönüşme potansiyelini barındıran bir tohumla başlar. Tohum çimlenmesi bu yolculuğun ilk adımıdır. Koşullar uygun olduğunda tohum suyu emer, şişer ve dış kabuğunu kırar. Bu süreç, tohumun büyümeye başlamasını tetikler.</figcaption>
+                    </li>
+                    <li class="ol-context-li-right">
+                        <figcaption class="explain"> Kök ve sürgünler oluştuktan sonra fide aşaması başlar. Bu aşamada genç bitki, kök sistemini güçlendirmeye ve yaprak geliştirmeye odaklanır. Bu yapraklar bitkinin güneş ışığını enerjiye dönüştürdüğü fotosentez işlemi için gereklidir.</figcaption>
+                        <img src="images/fide.jpg" alt="fide" class="image" id="fide">
+                    </li>
+                    <li class="ol-context-li-left">
+                        <img src="images/fidan.jpg" alt="fidan" class="image" id="fidan">
+                        <figcaption class="explain">Fide olgunlaştıkça fidan aşamasına girer. Bu noktada, genç ağaç daha hızlı büyümeye başlar. Gövdesi kalınlaşır, dalları yayılarak göğe doğru uzanır. Fidan aşaması, ağacın türüne ve yetiştiği koşullara bağlı olarak birkaç yıl sürebilir.</figcaption>
+                    </li>
+                    <li class="ol-context-li-right">
+                        <figcaption class="explain">Bir ağaç tam boyuna ulaştığında ve yayıldığında olgun sayılır. Bu aşamaya ulaşmak, türe bağlı olarak onlarca, hatta yüzyıllarca sürebilir. Olgun bir ağacın köklü bir kök sistemi, kalın bir gövdesi ve geniş bir yaprak gölgesi vardır.</figcaption>
+                        <img src="images/buyuk-agac.jpg" alt="olgunluk" class="image" id="agac">
+                    </li>
+                    <li class="ol-context-li-mid">
+                        <img src="images/ari.jpg" alt="fidan" class="image" id="ari">
+                        <img src="images/elma.jpg" alt="fidan" class="image" id="fidan">
+                        <br>
+                        <figcaption class="explain">Ağaçlar, türlerinin devamını sağlamak için farklı yöntemlerle çoğalırlar. Bazı ağaçlar, arılar veya rüzgar gibi etkenlerle tozlaşan çiçekler açar. Bu çiçekler daha sonra içinde tohumlar bulunan meyvelere dönüşür. Elma, armut gibi ağaçlar bu şekilde ürer. Çam, köknar gibi iğne yapraklı ağaçlar ise kozalak adı verilen özel yapılar üretir. Bu kozalakların içinde tohumlar bulunur ve olgunlaşınca açılarak tohumları doğaya bırakır.</figcaption>
+                    </li>
+                </ol>
+            </div>
         </main>
 
         <footer class="footer" id="footer">
-
             <a href="https://github.com/Heaven5234/Orman-Haftasi-Tanitimi" class="footer-link" id="github-link">
                 <p class="info">
                     Enes Bozkurt
+                    <br>
+                    Bu site bir okul ödevidir.
                 </p>
             </a>
         </footer>
     </div>
 
     <script src="app/mediaHandler.js"></script>
-    <script src="app/changingHead.js"></script>
+    <script type="module">
+        import ChangingHead from "./app/changingHead.js";
+
+        ChangingHead.InitialieSequence(
+            document.getElementById("baslik"),
+            ["Bir Ağacın Öyküsü", "Bir Ağacın Yaşamı", "Nefesimizin Öyküsü"],
+            120,
+            10,
+            900
+        )
+    </script>
 </body>
 
 </html>
