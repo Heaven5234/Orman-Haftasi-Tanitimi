@@ -3,6 +3,7 @@ const menuContent = document.getElementById("menu-content");
 const headerContent = document.getElementById("header-content");
 const mainpage = document.getElementById("anasayfa");
 const siteMainContent = document.getElementById("main-site-content");
+const footer = document.getElementById("footer");
 const mediaQuery = window.matchMedia("(max-width:1640px)");
 
 let isMenuOpened = false;
@@ -10,7 +11,7 @@ let isWindowSmall = window.innerWidth > 1720 ? false : true;
 
 console.log("isInitWindowSmall:", isWindowSmall);
 
-if (imgButton != null && menuContent != null && mainpage != null && headerContent != null && siteMainContent != null) {
+if (imgButton != null && menuContent != null && mainpage != null && headerContent != null && siteMainContent != null && footer != null) {
    console.log("found the", imgButton.id, menuContent.id, mainpage.id, headerContent.id, siteMainContent.id);
 
    imgButton.addEventListener(
@@ -20,6 +21,7 @@ if (imgButton != null && menuContent != null && mainpage != null && headerConten
             menuContent.style.display = "flex";
             mainpage.style.display = "none";
             siteMainContent.style.display = "none";
+            footer.style.display = "none";
             isMenuOpened = !isMenuOpened;
          }
 
@@ -27,11 +29,11 @@ if (imgButton != null && menuContent != null && mainpage != null && headerConten
             menuContent.style.display = "none";
             mainpage.style.display = "flex";
             siteMainContent.style.display = "flex";
+            footer.style.display = "flex";
             console.log("[imgButton]isWindowSmall:", isWindowSmall);
             if (!isWindowSmall) {
                imgButton.style.display = "none"
                headerContent.style.display = "flex";
-               console.log("sonunda ae");
             }
 
             else {

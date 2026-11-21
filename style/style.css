@@ -30,7 +30,8 @@ div.workspace {
 
 header.header,
 main.content,
-main.content-body {
+div.content-body,
+footer.footer {
    display: flex;
    flex-wrap: wrap;
    padding: 45px 50px;
@@ -63,7 +64,8 @@ a.header-mainpage:hover {
 }
 
 a.header-link,
-a.menu-link {
+a.menu-link,
+a.footer-link {
    font-family: var(--montserrat-font);
    font-size: 95%;
    font-weight: 300;
@@ -115,10 +117,10 @@ img.image#menu-image {
 }
 
 main.content {
-   padding: 20px 20px;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border: 0;
 }
 
 h1.site-head {
@@ -132,12 +134,37 @@ header.content-head {
    height: 60px;
 }
 
-img.image#orman-fotografi {
-   width: 160%;
+div.content-body {
+   position: relative;
+   isolation: isolate;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 20px;
+}
+
+div.content-body::before {
+   content: "";
+   position: absolute;
+   inset: -8% 0;
+   z-index: -1;
+   pointer-events: none;
+   background: radial-gradient(ellipse closest-side,
+         rgba(60, 204, 96, 0.55) 0%,
+         rgba(60, 204, 96, 0.25) 50%,
+         rgba(60, 204, 96, 0) 100%);
 }
 
 img.glow-filter#orman-fotografi {
-   filter: drop-shadow(0px 0px 10px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 50px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89)) drop-shadow(0px 0px 100px rgba(60, 204, 96, 0.89));
+   max-width: 100%;
+   min-width: 0;
+   height: auto;
+   filter: drop-shadow(0 0 12px rgba(60, 204, 96, 0.9));
+}
+
+footer.footer {
+   color: wheat;
+   font-size: 210%;
 }
 
 @media screen and (max-width: 1640px) {
