@@ -7,7 +7,7 @@ const footer = document.getElementById("footer");
 const mediaQuery = window.matchMedia("(max-width:1640px)");
 
 let isMenuOpened = false;
-let isWindowSmall = window.innerWidth > 1720 ? false : true;
+let isWindowSmall = window.innerWidth > 1640 ? false : true;
 
 console.log("isInitWindowSmall:", isWindowSmall);
 

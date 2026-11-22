@@ -4,6 +4,7 @@ export default class ChangingHead {
         if (element == null) {
             console.log("[ChangingHead]: cant find", element.id);
         }
+
         else {
             while (true) {
                 for (const message of messages) {
