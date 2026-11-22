@@ -10,3 +10,10 @@ fidan.jpg: https://blog.koctas.com.tr/wp-content/uploads/2021/08/fidan-nasil-dik
 buyuk-agac.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9dKvBJH5H1W-T9I-ABjLaI2O_VBtvMIw1o8hnK6Qp7KbNIEwOAshyePFt&s=10
 ari.jpg: https://pixnio.com/free-images/2017/10/14/2017-10-14-07-48-23.jpg
 elma.jpg: https://i.pinimg.com/736x/80/ae/7e/80ae7e436145984bd9348a6319d8817e.jpg
+erozyon.png: https://cem.csb.gov.tr/haberler/erozyon-kontrolu-calismalarimiz-tum-hiziyla-devam-ediyor-266077
+konya-col-yesermesi.webp: https://www.aa.com.tr/uploads/userFiles/7fc6ad83-e801-4dd2-b1c1-974abd5a6af0/2021%2Fhaziran%2Fkarapinar-1-.jpg
+ekme.jpg: https://www.gelecegenefes.gov.tr/haberler/guinness-rekorlar-kitabindayiz-1
+manavgat.jpg: https://cdn.img.anlatilaninotesi.com.tr/img/07e5/0b/0a/1050664118_0:116:1120:746_1920x0_80_0_0_8444bcbc6576d5dd85c686e6932a2506.jpg
+81-ilde-81-orman.png: https://www.isbank.com.tr/bankamizi-taniyin/81-ilde-81-orman
+tema.jpg: https://iasbh.tmgrup.com.tr/8f12d8/650/344/0/21/720/398?u=https://isbh.tmgrup.com.tr/sbh/2021/10/31/tema-acilimi-nedir-tema-vakfi-nedir-ne-is-yapar-ve-gorevleri-nelerdir-k1-1635690270657.jpg
+1-iyilik-1-fidan.webp: https://www.haber7.com/guncel/haber/3674768-tdvnin-1-iyilik-1-fidan-kampanyasinda-hedef-1-milyon
