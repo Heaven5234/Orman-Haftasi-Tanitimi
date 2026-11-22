@@ -1,11 +1,11 @@
 export default class ChangingHead {
     static async InitializeSequence(element, messages, messageDelay = 300, deleteDelay = 100, wait = 300) {
-        element.textContent = "";
         if (element == null) {
             console.log("[ChangingHead]: cant find", element.id);
         }
 
         else {
+            element.textContent = "";
             while (true) {
                 for (const message of messages) {
                     await this.addMessage(element, message, messageDelay);
@@ -44,5 +44,4 @@ export default class ChangingHead {
     static successAfterMiliseconds(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
-
 }
