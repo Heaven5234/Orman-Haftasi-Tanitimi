@@ -1,0 +1,14 @@
+orman-haftasi-tarihi.html:
+1. p#ormancilik-tarihi: https://tr.wikipedia.org/wiki/Orman_Haftas%C4%B1
+2. p#gecmis: https://adalar.meb.gov.tr/www/21-26-orman-haftasi/icerik/1127
+
+agac-yasami.html:
+1. ol#context: https://www.yapikredi.com.tr/blog/yasam/yasam-kulturu/detay/agaclarin-gizemli-dunyasi-agaclar-nasil-buyur
+
+orman-calismalari.html:
+1. a#seferberlik: https://cem.csb.gov.tr/haberler/erozyon-kontrolu-calismalarimiz-tum-hiziyla-devam-ediyor-266077
+2. a#konya: https://www.haber7.com/konya/2002094-erozyonla-mucadelede-karapinar-ornegi
+3. a#gelecege-nefes: https://www.gelecegenefes.gov.tr/s/hakkimizda
+4. a#manavgat: https://yerel-haberler.haberturk.com/antalya-haberleri/manavgat-yangin-alaninda-5-milyon-170-bin-fidan-toprakla-bulustu-103871164
+5. a#tema: https://www.tema.org.tr/hakkimizda/kurumsal/kurulus-oykumuz
+6. a#1-iyilik-1-fidan: https://www.haber7.com/guncel/haber/3674768-tdvnin-1-iyilik-1-fidan-kampanyasinda-hedef-1-milyon
